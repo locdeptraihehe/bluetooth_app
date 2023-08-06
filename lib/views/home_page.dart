@@ -39,7 +39,7 @@ class HomePage extends StatelessWidget {
                           minimumSize: const Size(350, 50),
                           shape: const RoundedRectangleBorder(
                               borderRadius:
-                                  BorderRadius.all(Radius.circular(6)))),
+                                  BorderRadius.all(Radius.circular(7)))),
                       onPressed: () => controller.scanDevice(),
                       child: const Text('Scan',
                           style: TextStyle(
